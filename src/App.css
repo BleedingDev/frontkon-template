@@ -1,3 +1,7 @@
+@import "tailwindcss";
+@plugin 'tailwindcss-animate';
+@plugin "@iconify/tailwind4";
+
 body {
   margin: 0;
   color: #fff;

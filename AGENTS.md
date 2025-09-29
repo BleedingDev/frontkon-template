@@ -13,6 +13,8 @@ This document serves as the main navigation for codebase rules. Each rule file c
 ### Code Style & Naming
 - **[naming-conventions.md](./rules/naming-conventions.md)** - Use when naming files, variables, functions, classes, types, or constants
 - **[jsdoc-comments.md](./rules/jsdoc-comments.md)** - Use when adding documentation to functions and types
+- **[styles.md](./rules/styles.md)** - Use when working with CSS and styling. Always use Tailwind 4 and MCPs for docs
+- **[react.md](./rules/react.md)** - Use when working with React. We use React 19, so no forwardRef!
 
 ### TypeScript Patterns
 - **[discriminated-unions.md](./rules/discriminated-unions.md)** - Use when modeling data with multiple shapes or states (e.g., events, fetching states)
@@ -47,7 +49,5 @@ This document serves as the main navigation for codebase rules. Each rule file c
 3. Am I adding documentation? → Check `jsdoc-comments.md`
 4. Am I installing packages? → Check `installing-libraries.md`
 5. Am I using imports/exports? → Check `import-type.md` and `default-exports.md`
-
----
-
-**Note**: Ruler concatenates all .md files in this directory and subdirectories, applying them to your configured AI coding agents.
+6. Am I styling? -> Check `styles.md`
+7. Am I using React? -> Check `react.md`
