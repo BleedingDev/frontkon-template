@@ -1,0 +1,27 @@
+{
+	"mcpServers": {
+		"exa": {
+			"type": "http",
+			"url": "https://mcp.exa.ai/mcp",
+			"headers": {}
+		},
+		"quillopy": {
+			"command": "bunx",
+			"args": ["-y", "@quillopy/mcp"],
+			"env": {
+				"QUILLOPY_API_KEY": ""
+			},
+			"alwaysAllow": ["quillopy_search", "quillopy_chat_with_code"]
+		},
+		"context7": {
+			"command": "bunx",
+			"args": ["-y", "@upstash/context7-mcp@latest"],
+			"disabled": false,
+			"alwaysAllow": ["resolve-library-id", "get-library-docs"]
+		},
+		"css-first": {
+			"command": "bunx",
+			"args": ["-y", "@depthark/css-first"]
+		}
+	}
+}
