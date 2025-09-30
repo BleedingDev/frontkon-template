@@ -26,6 +26,10 @@
     "gitbutler": {
       "command": "but",
       "args": ["mcp"]
+    },
+    "chrome-devtools": {
+      "command": "bunx",
+      "args": ["-y", "chrome-devtools-mcp@latest"]
     }
   }
 }
