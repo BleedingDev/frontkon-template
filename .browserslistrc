@@ -1,0 +1,11 @@
+[production]
+last 3 chrome version
+last 3 edge version
+last 1 firefox version
+last 1 safari version
+
+[development]
+last 1 chrome version
+last 1 edge version
+last 1 firefox version
+last 1 safari version
