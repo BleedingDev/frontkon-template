@@ -1,0 +1,3 @@
+[test]
+# Run Bun unit/integration tests from this directory to avoid Playwright specs
+root = "./tests/unit"
