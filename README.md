@@ -24,3 +24,16 @@ React 19 starter powered by Bun, Rsbuild, Tailwind v4, and Biome. Playwright dri
 ## Continuous integration
 `.github/workflows/ci.yml` runs on pushes to `main` and pull requests. The workflow sets up Bun, installs dependencies, formats and lints with Biome, executes `bun test`, builds the app, installs Playwright browsers, and runs the Playwright suite. Playwright reports upload automatically on failure.
 
+## Claude Code commands
+Custom commands live in `.claude/commands` and run from the Claude Code command bar using `/command-name [optional arguments]`.
+- `/new-feature` kicks off the mandatory spec-driven flow for net-new features.
+
+### Spec kit commands
+- `/specify` drafts or updates the feature spec from a natural-language brief.
+- `/clarify` asks targeted follow-up questions and folds the answers back into the spec.
+- `/plan` produces the implementation plan artifact, and `/tasks` breaks it into ordered work items.
+- `/analyze` validates consistency across `spec.md`, `plan.md`, and `tasks.md` before implementation.
+- `/implement` executes the agreed task list; `/constitution` manages the project constitution if rules change.
+
+### Testing commands
+- `/testing-plan`, `/testing-implement`, `/testing-analyze`, and `/testing-visual` generate and improve automated, Playwright, and visual testing coverage.
