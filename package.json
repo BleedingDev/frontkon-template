@@ -14,12 +14,14 @@
     "check": "biome check --write",
     "format": "biome format --write",
     "preview": "rsbuild preview",
+    "test": "bun test",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:debug": "playwright test --debug",
     "test:e2e:headed": "playwright test --headed",
     "test:e2e:report": "playwright show-report",
-    "pw:install": "playwright install"
+    "pw:install": "playwright install",
+    "postinstall": "lefthook install"
   },
   "dependencies": {
     "@iconify/tailwind4": "^1.0.6",
@@ -38,6 +40,7 @@
     "@types/bun": "^1.2.23",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
+    "lefthook": "^1.13.6",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2"
   }

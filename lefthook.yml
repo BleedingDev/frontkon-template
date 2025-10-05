@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    bun_check:
+      run: bun run check
+    bun_test:
+      run: bun run test
